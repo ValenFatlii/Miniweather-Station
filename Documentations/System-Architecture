@@ -1,0 +1,68 @@
+# System Architecture
+
+## Overview
+
+The Miniweather Station is an IoT-based environmental monitoring system
+developed using ESP32 as the main processing unit. The system integrates
+multiple sensors for atmospheric monitoring and transmits measurement data
+through MQTT communication.
+
+## System Block Diagram
+
+![System Architecture](../images/system_architecture.png)
+
+
+## Hardware Layer
+
+The hardware layer consists of:
+
+- ESP32 microcontroller as the main controller
+- SCD40 sensor for CO2, temperature, and humidity measurement
+- BMP280 sensor for atmospheric pressure and altitude measurement
+- BH1750 sensor for light intensity measurement
+- AS5600 magnetic sensor for wind direction measurement
+- Anemometer for wind speed measurement
+- Tipping bucket rain gauge for rainfall measurement
+- SD Card module for local data storage
+
+
+## Data Processing Layer
+
+ESP32 performs:
+
+- Sensor data acquisition through I2C interface
+- Data filtering and calibration
+- Measurement interval control
+- Data logging to SD Card
+- MQTT payload generation
+
+
+## Communication Layer
+
+The system supports:
+
+- WiFi communication
+- MQTT protocol for IoT data transmission
+- Local storage when network connection is unavailable
+
+
+## Data Flow
+
+The data flow sequence is:
+
+1. Sensors measure environmental parameters.
+2. ESP32 reads sensor values.
+3. Data is processed and formatted.
+4. Measurement data is stored locally in SD Card.
+5. Data is transmitted to MQTT broker.
+6. Visualization platform displays real-time monitoring data.
+
+
+## Power System
+
+The power system consists of:
+
+- Solar panel as renewable energy source
+- Battery storage system
+- DC-DC converter for voltage regulation
+- 5V and 3.3V regulated supply for electronic components
