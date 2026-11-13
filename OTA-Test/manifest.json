@@ -1,7 +1,7 @@
 {
   "target": "esp32-classic-4mb-rssi",
-  "version": 2,
-  "size": 1110368,
-  "url": "https://github.com/ValenFatlii/Miniweather-Station/releases/download/ota-rssi-v2/ota-rssi-v2.bin",
-  "sha256": "bec2d34730497e90b8f93d754737c6ffbdf8c440b2d49b3d8ac7f89fdcb88b68"
+  "version": 4,
+  "size": 1111568,
+  "url": "https://github.com/ValenFatlii/Miniweather-Station/releases/download/ota-rssi-v4/ota-rssi-v4.bin",
+  "sha256": "d76cede7ea6d883dd8830113e89f5b2a645c919ee2e3209c39456da8a0d26ad2"
 }
