@@ -21,4 +21,4 @@ The owner supplied a separate 20 October PDF layer package as the current PCB re
 
 The CAD reference includes separate controller/sensor and modem branches, INA219 input-side monitoring, level buffering, and different four-/five-pin I2C header arrangements. Use the [handover](handover.md) and a physical continuity check before wiring a harness.
 
-Schematic/BOM/3D files are not implied to be published merely by listing their roles. Record and publish reconciled source files when available. Existing diagram/image assets remain for the owner's separate update.
+Schematic/BOM/3D files are not implied to be published merely by listing their roles. Record and publish reconciled source files when available. The hardware architecture diagram was updated by the owner on 20 November 2026 and is referenced in [Hardware Design](../Documentations/03.%20Hardware%20Design.md#hardware-architecture). Other graphics and manufacturing assets remain subject to separate revision.

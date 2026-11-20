@@ -51,6 +51,6 @@ See the [firmware guide](Firmware/README.md), [hardware handover](Hardware/hando
 
 ## Documentation status
 
-Existing images, diagrams, captions, and image references have been retained for a separate owner-led revision. Some figures still describe earlier hardware or processing, and some deployment image links are unresolved. Use the written baseline and verified unit information when interpreting them.
+The owner updated the system, hardware, and sensor architecture diagrams on 20 November 2026. Chapters 2, 3, and 4 reference those versions. Other figures remain pending a separate owner-led revision, and some deployment image links are unresolved. Use the written baseline and verified unit information when interpreting block diagrams and wiring details.
 
 Historical calibration results are retained with their original context. New firmware behavior and physical hardware still require the versioned acceptance tests described in the testing document.

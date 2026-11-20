@@ -1,5 +1,11 @@
 # Change history
 
+## 2026-11-20 architecture diagram references
+
+- Updated chapters 2, 3, and 4 to identify the system, hardware, and sensor architecture diagrams uploaded by the owner.
+- Added an image revision query to those three references so cached previews can load the updated assets.
+- Updated documentation status and retained the written wiring/voltage references. No image files, deployment content, or firmware were changed in this documentation follow-up.
+
 ## 2026-11-20 documentation synchronization
 
 - Published the 10 November 2026 firmware baseline as the date-based identifier `2026.11.10`, with configuration placeholders for the public source.
